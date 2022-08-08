@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Snake-Game-Webapp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status](https://travis-ci.org/akumar23/SnakeGame.svg?branch=master)](https://travis-ci.org/akumar23/SnakeGame)
 
-## Available Scripts
+The web app is live right now at: https://snake-webapp.herokuapp.com/
 
-In the project directory, you can run:
+images of the app: https://imgur.com/gallery/gzGGoga
 
-### `npm start`
+Doc files can be found in the docs folder, under _build then _html then open index.html. It can only be opened after cloning the repo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The tests are in the tests folder and can be run using the command python -m pytest 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the project after cloning, make sure to install requirements by using 'pip install -r requirements.txt' (without quotes) first then running rungame.py with python. 
 
-### `npm test`
+The 12 features include: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feature 1: Allowing users to register with a unique username
 
-### `npm run build`
+Feature 2: Allowing them to login with their registered credentials
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Feature 3: Allowing them to logout from every page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feature 4: Giving users to the option to choose the color of the snake from a color picker page that has links to different versions of the snake game.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feature 5: One of the options on the color pickers page lets users play a harder version of the game which places an extra dot on the screen that they have to avoid as they collect food.
 
-### `npm run eject`
+Feature 6: The game itself
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feature 7: Playing music as the user plays the game
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feature 8: Saving the users score in a leaderboard and having that page be accessed from every page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feature 9: Letting users click a 'replay game' link from the leaderboard page and sending them back to the color picker page to replay the game
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feature 10: Letting Admins access an adminpanel by going to https://snake-webapp.herokuapp.com/admin, clicking 'Enter Protected Area', and entering 'letmein' in the text box that pops up
 
-## Learn More
+Featyure 11: Once on the Admin page, there's a button that'll clear the database of all users in case of emergencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Features 12 and 13: We also worked on css to make the site have a uniform design and look clean. It was also used to shift text over and make some of it more visible as well as moving the gameboard more to the center and making the hard game mode fit better on smaller screens.
